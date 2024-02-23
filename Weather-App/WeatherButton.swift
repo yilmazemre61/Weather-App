@@ -21,3 +21,7 @@ struct WeatherButton: View {
             .clipShape(.buttonBorder)
     }
 }
+
+#Preview {
+    WeatherButton(title: "Change Dat Time", textColor: .blue, backgroundColor: .gray)
+}
